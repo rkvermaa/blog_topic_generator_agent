@@ -38,6 +38,7 @@ The project is built to assist content creators in generating high-quality blog 
 
 ```bash
   pip install -r requirements.txt
+```
 
 ## Set up environment variables:
 
@@ -45,17 +46,20 @@ Create a .env file in the root directory and add your EXA_API_KEY:
 
 ```bash
   EXA_API_KEY=your_exa_api_key
+```
 
 ## Usage:
 Run the main script:
 
 ```bash
   python main.py
+```
 
-
+```bash
 Enter the niche or topic you want to write about.
 Specify the specific area of the niche.
 Define the main objective for your blog post (e.g., attract readers, SEO ranking, monetize).
 View the results:
+```
 
 The output will be displayed in the console and saved to a Markdown file with a timestamped filename (e.g., blog_content_output_20230819_123456.md).
